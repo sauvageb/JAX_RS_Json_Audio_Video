@@ -11,13 +11,16 @@
     <section class="section">
         <div>
             <h1>Exemples JAX-RS</h1>
-            <p class="mb-5">Ce projet démo concerne l'API JAX-RS implémenté par Jersey : </p>
-            <ul>
-                <li>[GET] /webapi/quotes : Renvoie des citations en JSON</li>
-                <li>[POST] /webapi/quotes : Ajout d'une citation en JSON</li>
-                <li>[GET] /webapi/audio : Renvoie un son de batterie</li>
-                <li>[GET] /webapi/video : Renvoie une vidéo</li>
+            <p class="mb-5">Ce projet démo interroge l'API Rest JAX-RS disponible sur /webapi/ (implémentée par Jersey)
+                : </p>
+            <ul class="mb-5">
+                <li>[GET] /webapi/quotes : Permet de récupérer des citations en JSON</li>
+                <li>[POST] /webapi/quotes : Permet d'ajouter une citation (en JSON)</li>
+                <li>[GET] /webapi/audio : Permet de récupérer un son de batterie</li>
+                <li>[GET] /webapi/video : Permet de récupérer une vidéo</li>
             </ul>
+            <p>Le code qui interroge ces différentes routes est en Javascript et utilise l'API fetch.</p>
+            <p>Vous pouvez naviguer vers les différents exemples Citations, Audio et Vidéo dans le menu.</p>
         </div>
     </section>
 </div>
