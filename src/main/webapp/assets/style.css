@@ -1,29 +1,140 @@
-html, body {
+* {
     margin: 0;
 }
 
+.mb-5 {
+    margin-bottom: 20px;
+}
+
+.nav-logo .brand-text {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.nav-logo #brand-logo {
+    font-size: 2.5rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.section h1 {
+    margin-bottom: 15px;
+}
+
+.section h2 {
+    color: #a5b4fc;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1f2039;
+}
+
+a, a:hover, a:active, a:visited {
+    color: #242424;
+    text-decoration: none;
+}
+
+em {
+    color: #a5b4fc;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #f9f8ff;
+}
+
+p,
+li {
+    font-size: 1.1em;
+    color: #f9f8ff;
+}
+
+header,
+footer {
+    background-color: white;
+    padding: 20px 50px;
+}
+
+.button {
+    display: inline-block;
+    border: 0;
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+}
+
+
+.lien-icone:hover {
+    opacity: 0.5;
+}
+
+section {
+    padding: 80px;
+}
+
+footer,
 nav {
-    background-color: #f2f2f2;
-    overflow: hidden;
-    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav a {
-    float: left;
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    margin-left: 30px;
 }
 
-nav a:hover {
-    background-color: #ddd;
-    color: black;
-}
 
-nav a.active {
-    background-color: #4CAF50;
+form {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
     color: white;
+    align-items: center;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+input {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.form-button {
+    margin-left: 20px;
 }

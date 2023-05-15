@@ -8,7 +8,17 @@
 <body>
 <jsp:include page="header.jsp"></jsp:include>
 
-<button id="action-button">Play</button>
+<div class="container">
+    <section class="section">
+        <div>
+            <h1>Exemple Audio</h1>
+            <p class="mb-5">Un code Javascript récupère un son depuis /webapi/audio</p>
+            <button id="action-button" class="button">Play</button>
+        </div>
+    </section>
+</div>
+
+
 <script>
     fetch('webapi/audio',
         {

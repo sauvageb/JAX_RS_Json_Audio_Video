@@ -8,9 +8,20 @@
 <body>
 <jsp:include page="header.jsp"></jsp:include>
 
-<video id="video-player" controls>
-    <source src="" type="video/mp4">
-</video>
+<div class="container">
+    <section class="section">
+        <div>
+            <h1>Exemple Vidéo</h1>
+            <p class="mb-5">Un code Javascript récupère une vidéo depuis /webapi/video</p>
+
+            <video id="video-player" controls>
+                <source src="" type="video/mp4">
+            </video>
+        </div>
+    </section>
+</div>
+
+
 
 <script>
     fetch('webapi/video',
